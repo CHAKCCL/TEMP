@@ -28,3 +28,7 @@ https://angular.io/docs/ts/latest/guide/testing.html#!#live-examples
 Continuous testing
 http://infinitest.github.io/doc/user_guide.html
 https://wallabyjs.com
+
+Acceptance test driven
+https://en.wikipedia.org/wiki/Specification_by_example
+https://en.wikipedia.org/wiki/Acceptance_test%E2%80%93driven_development
