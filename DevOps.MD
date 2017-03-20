@@ -36,6 +36,7 @@ https://en.wikipedia.org/wiki/Acceptance_test%E2%80%93driven_development
 
 Selenium 
 JavaScript unit tests for web apps
+Selenium is the open source standard for automating testing of web applications across multiple browsers
 
 Appium 
 tests native and hybrid mobile apps
