@@ -1,19 +1,8 @@
 testing automation
 
-
-
-javascript
-
-https://github.com/ericelliott/essential-javascript-links#essential-javascript-links
-http://stateofjs.com/2016/testing/
-
-
-tdd java
-
-Junit
-https://github.com/junit-team/junit4/wiki/Getting-started
-
-
+TDD
+BDD
+Continuous testing
 
 tdd ionic
 
@@ -29,10 +18,19 @@ Continuous testing
 http://infinitest.github.io/doc/user_guide.html
 https://wallabyjs.com
 
-Acceptance test driven
+
+BDD tools
+Cucumber - java 
+Concordion - Ruby
+
 https://en.wikipedia.org/wiki/Specification_by_example
 https://en.wikipedia.org/wiki/Acceptance_test%E2%80%93driven_development
 
+
+TDD tools
+
+Junit
+https://github.com/junit-team/junit4/wiki/Getting-started
 
 Selenium 
 JavaScript unit tests for web apps
