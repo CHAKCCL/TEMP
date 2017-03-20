@@ -32,3 +32,10 @@ https://wallabyjs.com
 Acceptance test driven
 https://en.wikipedia.org/wiki/Specification_by_example
 https://en.wikipedia.org/wiki/Acceptance_test%E2%80%93driven_development
+
+
+Selenium 
+JavaScript unit tests for web apps
+
+Appium 
+tests native and hybrid mobile apps
