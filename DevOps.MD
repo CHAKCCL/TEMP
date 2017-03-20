@@ -39,3 +39,6 @@ JavaScript unit tests for web apps
 
 Appium 
 tests native and hybrid mobile apps
+
+https://saucelabs.com/
+While many organizations today have begun the DevOps journey by adopting some tools and methodologies that promote agility, a lack of fully automated testing often prevents them from completing it. The integration of efficient automated testing into workflows is therefore a crucial step for organizations seeking to achieve full agility and complete the DevOps journey
