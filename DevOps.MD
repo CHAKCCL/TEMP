@@ -47,3 +47,5 @@ Appium
 Appium is an open source, cross-platform test automation tool for native, hybrid and mobile web apps, tested on simulators (iOS, FirefoxOS), emulators (Android), and real devices (iOS, Android, Windows, FirefoxOS)
 
 Another significant benefit of Appium is that users can write tests using their favorite development tools, environment and programming language, such as Java, Objective-C, JavaScript, PHP, Ruby, Python or C#, among many others
+
+test automation should be approached from a programming perspective. Programmers should write the tests, and maintain the tests. Ideally, your quality assurance personnel should be trained to write and maintain their own tests
