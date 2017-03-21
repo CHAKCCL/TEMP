@@ -49,3 +49,29 @@ Appium is an open source, cross-platform test automation tool for native, hybrid
 Another significant benefit of Appium is that users can write tests using their favorite development tools, environment and programming language, such as Java, Objective-C, JavaScript, PHP, Ruby, Python or C#, among many others
 
 test automation should be approached from a programming perspective. Programmers should write the tests, and maintain the tests. Ideally, your quality assurance personnel should be trained to write and maintain their own tests
+
+Selenium IDE (Firefox Add-on) can be used to quickly create a test case / suite using Record and Playback feature. It doesn’t need any Programming language knowledge.
+
+It provides :
+
+Record & Playback
+No Programming Language knowledge required
+Control execution speed
+Execute single / multiple test cases
+Save Test Case / Suite
+Schedule Test Case / Suite execution
+But if you are familiar with any one of the Programming languages supported by Selenium (or willing to learn), I would recommend to use Selenium WebDriver.
+
+It provides :
+
+Reporting post execution
+Execution flow control
+Screenshot capturing
+Javascript handling
+Complex Framework Implementation (Data Driven, Keyword Driven, Hybrid Frameworks)
+Code Maintenance
+In brief :
+
+Use Selenium IDE to locate Web Page elements.
+
+Use Selenium WebDriver to perform Automation tasks
