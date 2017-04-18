@@ -12,3 +12,7 @@ I didn't need to downgrade Platform Tools, but if you need to, here are those li
 
 https://dl-ssl.google.com/android/repository/platform-tools_r<version>-windows.zip
 https://dl-ssl.google.com/android/repository/platform-tools_r<version>-macosx.zip
+
+
+
+Arquillian, a powerful container-oriented testing framework layered atop TestNG and JUnit, gives you the ability to create the production environment on the container of your choice and just execute tests in that environment (using the datasources, JMS destinations, and a whole lot of other configurations you expect to see in production environment). Instead of bringing your runtime to the test, Arquillian brings your test to the runtime
