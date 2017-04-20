@@ -16,3 +16,18 @@ https://dl-ssl.google.com/android/repository/platform-tools_r<version>-macosx.zi
 
 
 Arquillian, a powerful container-oriented testing framework layered atop TestNG and JUnit, gives you the ability to create the production environment on the container of your choice and just execute tests in that environment (using the datasources, JMS destinations, and a whole lot of other configurations you expect to see in production environment). Instead of bringing your runtime to the test, Arquillian brings your test to the runtime
+
+
+struts.xml
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+    <package name="default" extends="struts-default">
+        <action name="numCheck" class="junit.struts.NumberAction">
+            <result name="success">/success.jsp</result>
+            <result name="failure">/failure.jsp</result>
+        </action>
+    </package>
+</struts>
