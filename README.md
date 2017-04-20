@@ -47,3 +47,18 @@ In my case I needed to call super.setUp from my test.
     <type>jar</type>
     <scope>test</scope>
 </dependency>
+
+
+@Before
+31     public void setUp() throws Exception {
+32         //這幾行一定要寫
+33             //等價於在 web.xml 中設定 <init-param> 參數
+34         Map<String, String> dispatcherInitParams = new HashMap<String, String>();
+35         ReflectionTestUtils.setField(this, "dispatcherInitParams", dispatcherInitParams);
+36             //載入 struts 設定檔
+37         dispatcherInitParams.put("config", "struts-default.xml,struts-plugin.xml,struts.xml");
+38         
+39         super.setUp();
+40     }
+
+initServletMockObjects();
