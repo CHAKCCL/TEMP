@@ -23,11 +23,12 @@ struts.xml
     "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
     "http://struts.apache.org/dtds/struts-2.0.dtd">
 
-<struts>
-    <package name="default" extends="struts-default">
-        <action name="numCheck" class="junit.struts.NumberAction">
-            <result name="success">/success.jsp</result>
-            <result name="failure">/failure.jsp</result>
-        </action>
-    </package>
-</struts>
+To avoid request from being null:
+
+request = new MockHttpServletRequest();
+For session:
+
+Map<String, Object> sessionMap = new HashMap<String, Object>();
+actionProxy.getInvocation().getInvocationContext().setSession(sessionMap);
+
+In my case I needed to call super.setUp from my test.
