@@ -32,3 +32,18 @@ Map<String, Object> sessionMap = new HashMap<String, Object>();
 actionProxy.getInvocation().getInvocationContext().setSession(sessionMap);
 
 In my case I needed to call super.setUp from my test.
+
+<dependency>
+    <groupId>javax.servlet</groupId>
+    <artifactId>servlet-api</artifactId>
+    <version>2.4</version>
+    <type>jar</type>
+    <scope>provided</scope>
+</dependency>
+<dependency>
+    <groupId>javax.servlet.jsp</groupId>
+    <artifactId>jsp-api</artifactId>
+    <version>2.1</version>
+    <type>jar</type>
+    <scope>test</scope>
+</dependency>
