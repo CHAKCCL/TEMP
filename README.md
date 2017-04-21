@@ -33,21 +33,6 @@ actionProxy.getInvocation().getInvocationContext().setSession(sessionMap);
 
 In my case I needed to call super.setUp from my test.
 
-<dependency>
-    <groupId>javax.servlet</groupId>
-    <artifactId>servlet-api</artifactId>
-    <version>2.4</version>
-    <type>jar</type>
-    <scope>provided</scope>
-</dependency>
-<dependency>
-    <groupId>javax.servlet.jsp</groupId>
-    <artifactId>jsp-api</artifactId>
-    <version>2.1</version>
-    <type>jar</type>
-    <scope>test</scope>
-</dependency>
-
 
 @Before
 31     public void setUp() throws Exception {
@@ -62,3 +47,5 @@ In my case I needed to call super.setUp from my test.
 40     }
 
 initServletMockObjects();
+
+com.opensymphony.xwork2.config.ConfigurationException: Unable to load configuration
