@@ -20,17 +20,4 @@ Arquillian, a powerful container-oriented testing framework layered atop TestNG 
 
 
 
-
-
-<bean class="org.springframework.beans.factory.config.CustomScopeConfigurer">
-        <property name="scopes">
-            <map>
-                <entry key="session">
-                    <bean class="org.springframework.web.context.request.SessionScope" />
-                </entry>
-                <entry key="request">
-                    <bean class="org.springframework.web.context.request.RequestScope" />
-                </entry>
-            </map>
-        </property>
-    </bean>
+Error creating bean with name 'scopedTarget.sysUser': Scope 'session' is not active for the current thread; consider defining a scoped proxy for this bean if you intend to refer to it from a singleton
