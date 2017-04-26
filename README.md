@@ -28,3 +28,6 @@ Error creating bean with name 'scopedTarget.sysUser': Scope 'session' is not act
                     org.springframework.web.context.request.RequestContextListener 
             </listener-class>
   </listener>
+
+MockHttpServletRequest request = new MockHttpServletRequest();
+RequestContextHolder.setRequestAttributes(new ServletRequestAttributes(request));
