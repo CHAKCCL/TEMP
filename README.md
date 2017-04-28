@@ -28,3 +28,5 @@ Error creating bean with name 'scopedTarget.sysUser': Scope 'session' is not act
 java.lang.StackOverflowError
 	at org.apache.logging.log4j.spi.LoggerRegistry.getOrCreateInnerMap(LoggerRegistry.java:140)
 java.lang.NoClassDefFoundError: javax/servlet/jsp/PageContext
+
+javax.servlet:servlet-api and javax.servlet.jsp:jsp-api
