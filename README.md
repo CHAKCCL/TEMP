@@ -24,3 +24,6 @@ Error creating bean with name 'scopedTarget.sysUser': Scope 'session' is not act
 
 
 [testng] An error occurred while instantiating class org/apache/logging/log4j/LogManager
+
+java.lang.StackOverflowError
+	at org.apache.logging.log4j.spi.LoggerRegistry.getOrCreateInnerMap(LoggerRegistry.java:140)
