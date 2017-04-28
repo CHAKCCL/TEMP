@@ -23,11 +23,4 @@ Arquillian, a powerful container-oriented testing framework layered atop TestNG 
 Error creating bean with name 'scopedTarget.sysUser': Scope 'session' is not active for the current thread; consider defining a scoped proxy for this bean if you intend to refer to it from a singleton
 
 
-<listener>
-            <listener-class>
-                    org.springframework.web.context.request.RequestContextListener 
-            </listener-class>
-  </listener>
-
-MockHttpServletRequest request = new MockHttpServletRequest();
-RequestContextHolder.setRequestAttributes(new ServletRequestAttributes(request));
+[testng] An error occurred while instantiating class org/apache/logging/log4j/LogManager
